@@ -7,14 +7,13 @@
 
 .container {
     display: grid;
-    /* I used height and width cuz of the shapes gonna be same as Figma other wise its moving . */
-    height: 500px;
-    width: 900px;
+    height: 100%;
+    width: 100%;
     grid-template-columns: repeat(6, auto); 
     grid-template-rows: repeat(10,1fr);
     gap: 10px;
     background-color:#9BC1BC;
-    padding: 20px;
+    padding: 10%;
     
 }
 
@@ -89,6 +88,15 @@
     grid-row: 7 / span 4;
 }
 
-.text {
-    background-color:#9BC1BC;
+.box-12 {
+    background-color:green;
+    grid-column: 1 / -1
+
+
+}
+.colour {
+    display: grid;
+    align-content: space-around;
+    justify-content: center;
+
 }
